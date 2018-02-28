@@ -141,7 +141,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 
 # EMAIL_PORT = 465 #默认
 # EMAIL_HOST_USER = "your eamil"
-# # EMAIL_HOST_PASSWORD="nxhv anau vyqd beec"
+# # EMAIL_HOST_PASSWORD="password" # 邮箱设置中获取密码
 # EMAIL_HOST_PASSWORD = "your password"
 # EMAIL_HOST = 'smtp.exmail.qq.com' #qq邮箱的配置
 # EMAIL_USE_TLS = False  #默认
