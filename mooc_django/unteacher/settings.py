@@ -140,24 +140,24 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 # 设置邮箱
 
 # EMAIL_PORT = 465 #默认
-# EMAIL_HOST_USER = "847589231@qq.com"
+# EMAIL_HOST_USER = "your eamil"
 # # EMAIL_HOST_PASSWORD="nxhv anau vyqd beec"
-# EMAIL_HOST_PASSWORD = "liwei520YQ"
-# EMAIL_HOST = 'smtp.exmail.qq.com'
+# EMAIL_HOST_PASSWORD = "your password"
+# EMAIL_HOST = 'smtp.exmail.qq.com' #qq邮箱的配置
 # EMAIL_USE_TLS = False  #默认
-# EMAIL_FROM= "847589231@qq.com"
+# EMAIL_FROM= "your email"
 
 # qq IMAP/SMTP 配置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.qq.com'
+EMAIL_HOST = ' '
 EMAIL_PORT = 25  # 或者 465/587是设置了 SSL 加密方式
 # 发送邮件的邮箱
-EMAIL_HOST_USER = "847589231@qq.com"  #‘你的邮箱’
+EMAIL_HOST_USER = " "  #‘你的邮箱’
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = "akwaihjxjaifbdah"  #‘你的IMAP授权码’  # 如果重新设置了新的授权码,直接使用最新的授权码即可
+EMAIL_HOST_PASSWORD = " "  #‘你的IMAP授权码’  # 如果重新设置了新的授权码,直接使用最新的授权码即可
 EMAIL_USE_TLS = True   # 这里必须是 True，否则发送不成功
 # 收件人看到的发件人, 必须是一直且有效的
-EMAIL_FROM ="Tencent<847589231@qq.com>" #‘Tencent<你的邮箱>'
+EMAIL_FROM ="Tencent<email>" #‘Tencent<你的邮箱>'
 
 AUTH_USER_MODEL = "rl_app.UserProfile"
 
